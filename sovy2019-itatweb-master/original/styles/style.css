@@ -141,19 +141,25 @@ aside#sidebar nav {
     margin: 10px;
 
     padding: 10px;
+    /*color: red;*/
 }
 
 aside#sidebar nav > ul {
-    list-style: nones;
+    list-style: none;
+    text-decoration: none;
+    background-color: #bbbbbb;
 }
 
 aside#sidebar nav > ul > li {
+    background-color: #d5d5d5;
 }
 
 aside#sidebar nav > ul > li > ul {
+    background-color: #dfdfdf;
 }
 
 aside#sidebar nav > ul > li > ul > li {
+    background-color: #f8f8f8;
 }
 
 aside#sidebar #sponzors {
@@ -175,4 +181,6 @@ footer {
     /*height:60px;   !* Height of the footer *!*/
     /*background:#6cf;*/
     clear: both;
+    text-align: center;
+
 }
