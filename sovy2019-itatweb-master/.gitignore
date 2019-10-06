@@ -3,4 +3,6 @@
 
 # production
 /build
- 
+
+#compilation
+/dist
